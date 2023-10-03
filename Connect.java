@@ -437,7 +437,7 @@ public class Connect {
             int policeStationId = sc.nextInt();
             System.out.println("Enter RegistrationDate (YYYY-MM-DD): ");
             String registrationDate = sc.next();
-            sc.nextLine(); // Consume the newline character
+            sc.nextLine();
             System.out.println("Enter ReportingOfficer: ");
             String reportingOfficer = sc.nextLine();
             System.out.println("Enter Notes: ");
